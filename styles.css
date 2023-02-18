@@ -148,8 +148,36 @@
     background-color:lightseagreen;
     text-align: center;
 }
-
-.azx{
-    width: 15%;
-    height: 15%;
-}
+footer{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background:lightseagreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .social-icons{
+    margin-top: 30px;
+ }
+ .social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 10px;
+    color: #000000;
+    display: inline-block;
+    transition: transform 0.5s;
+ }
+ .social-icons a:hover{
+    color: #ff004f;
+    transform: translate(-5px);
+ }
+ .end{
+    margin-top: 40px;
+    position: absolute;
+    color: #ef0101;
+    bottom: 35px;
+    font-size: 20px;
+ 
+ }
