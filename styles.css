@@ -112,36 +112,37 @@
 }
 .hobby1
 {
-    padding-left: 38%;
     line-height: 2;
+    text-align: center;
 }
 .hobby2
 {
-    padding-left: 24%;
+    
     line-height: 2;
+    text-align: center;
 }
 .hob
 {
     padding-top: 8%;
-    padding-left: 38%;
+    padding-left: 37%;
     line-height: 3;
     font-family: 'Courgette', cursive;
     color: #1A4D2E;
 }
 .hobby3
 {
-    padding-left: 28%;
     line-height: 2;
+    text-align: center;
 }
 .hobby4
 {
-    padding-left: 26%;
     line-height: 2;
+    text-align: center;
 }
 .hobby5
 {
-    padding-left: 39%;
     line-height: 2;
+    text-align: center;
 }
 .contact
 {
