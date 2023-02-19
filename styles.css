@@ -1,4 +1,7 @@
-
+*
+{
+    padding: 0%;
+}
 .container-fluid
 {
     padding: 0% 2%;
@@ -6,6 +9,7 @@
 .navbar
 {
     padding-bottom: 1.5rem;
+
 }
 .navbar-brand
 {
@@ -46,6 +50,7 @@
     font-size: 3.4rem;
     color:black;
     text-decoration: none;
+    position: relative;
 }
 .row
 {
@@ -55,42 +60,51 @@
     background-size: cover;
     background-attachment: fixed;
     background-position:center;
+    position: relative;
+    height: 100%;
+    padding-bottom: 5%;
     
 }
 .big-heading
 {
-    padding-left: 11%;
+    padding-left: 10%;
     padding-top: 20%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
     color:white;
     text-align: center;
+    position: relative;
 }
 .kkr
 {
     padding-top: 15%;
-    padding-left: 7%;
+    padding-left: 9%;
     text-align: center;
+    position: relative;
 }
 .big-heading_2
 {
-    padding-left: 3%;
+    padding-left: 0%;
     padding-top: 20%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
     color:white;
     text-align: center;
+    position: relative;
 }
 .iiit
 {
-    padding-top: 15%;
-    padding-left:18%;
+    padding-top: 12%;
+    padding-left:20%;
     text-align: center;
     
 }
 .skills
 {
    background-color:#1A120B;
+   position: relative;
+   padding-top: 7%;
+   padding-bottom: 7%;
     
 }
 .head-skills
@@ -98,86 +112,99 @@
     color: bisque;
     text-align: center;
     font-family: 'Sacramento', cursive;
+    position: relative;
 }
-.hobbies
-{
-    height: 100vh;
-    background-image: url('hob_back.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position:center;
-    
-}
-.hobby1
-{
-    line-height: 2;
-    text-align: center;
-}
-.hobby2
-{
-    
-    line-height: 2;
-    text-align: center;
-}
-.hob
-{
-    padding-top: 8%;
-    padding-left: 37%;
-    line-height: 3;
-    font-family: 'Courgette', cursive;
-    color: #1A4D2E;
-}
-.hobby3
-{
-    line-height: 2;
-    text-align: center;
-}
-.hobby4
-{
-    line-height: 2;
-    text-align: center;
-}
-.hobby5
-{
-    line-height: 2;
-    text-align: center;
-}
-.contact
-{
-    background-color:lightseagreen;
-    text-align: center;
-}
+
 footer{
     position: relative;
     width: 100%;
     height: 200px;
-    background:lightseagreen;
+    background:black;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
  }
  .social-icons{
-    margin-top: 30px;
+    padding-left: 4%;
  }
  .social-icons a{
     text-decoration: none;
     font-size: 30px;
     margin-right: 10px;
-    color: #000000;
+    color:white;
     display: inline-block;
     transition: transform 0.5s;
  }
  .social-icons a:hover{
-    color: #ff004f;
+    color:rgb(228, 66, 220);
     transform: translate(-5px);
  }
  .end{
-    margin-top: 40px;
-    position: absolute;
-    color: #ef0101;
+    color: rgb(228, 66, 220);
     bottom: 35px;
     font-size: 20px;
+    padding-left: 5%;
  
+ }
+ .bby{
+    margin-bottom: 50px;
+    margin-top: 0;
+    padding: 7%;
+}
+
+.css4{
+    background-image: url('back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height:90vh;
+
+}
+
+.hob{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    margin: 15px;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.hob1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    overflow: hidden;
+}
+
+.carousel-item{
+
+    text-align: center;
+}
+
+.ert{
+    font-family: 'Labrada', serif;
+}
+ .contact
+ {
+    padding-top: 2%;
+    padding-left: 2%;
+    color: aliceblue;
+ }
+ .call{
+    padding-left: 2%;
+    color: aliceblue;
+ }
+ .top
+ {
+    color: white;
+    text-decoration: none;
+    padding-left: 86%;
+    padding-top: 3%;
  }
