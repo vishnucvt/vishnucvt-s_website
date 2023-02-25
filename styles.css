@@ -22,6 +22,10 @@
 {
     text-decoration: none;
 }
+
+.picture .links p:hover{
+    color: orangered;
+}
 .nav-item
 {
     padding: 0px 18px;
