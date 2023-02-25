@@ -18,6 +18,10 @@
     font-weight : bolder;
     color: white;
 }
+.links
+{
+    text-decoration: none;
+}
 .nav-item
 {
     padding: 0px 18px;
